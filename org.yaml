@@ -9,12 +9,12 @@ spec:
     displayName: Team Backend
   children: []
   members:
-    - DarioRizzoRAI
+    - dariorizzorai
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: DarioRizzoRAI
+  name: dariorizzorai
   description: Developer del team backend
 spec:
   profile:
