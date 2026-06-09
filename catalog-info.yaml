@@ -137,3 +137,11 @@ spec:
     info:
       title: User API
       version: 1.0.0
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: petstore-org
+spec:
+  targets:
+    - ./org.yaml
