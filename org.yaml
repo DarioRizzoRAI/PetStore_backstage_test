@@ -9,16 +9,16 @@ spec:
     displayName: Team Backend
   children: []
   members:
-    - dario.rizzo
+    - DarioRizzoRAI
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: dario.rizzo
+  name: DarioRizzoRAI
   description: Developer del team backend
 spec:
   profile:
     displayName: Dario Rizzo
-    email: dario.rizzo@tuaazienda.com
+    email: dario.rizzo.1@rai.it
   memberOf:
     - team-backend
