@@ -137,7 +137,7 @@ spec:
     info:
       title: User API
       version: 1.0.0
-      ---
+---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
