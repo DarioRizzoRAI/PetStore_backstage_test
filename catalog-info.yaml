@@ -96,11 +96,8 @@ spec:
   lifecycle: experimental
   owner: team-backend
   system: petstore
-  definition: |
-    openapi: 3.0.0
-    info:
-      title: Pet API
-      version: 1.0.0
+  definition:
+    $text: https://petstore3.swagger.io/api/v3/openapi.json
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
@@ -114,11 +111,8 @@ spec:
   lifecycle: experimental
   owner: team-backend
   system: petstore
-  definition: |
-    openapi: 3.0.0
-    info:
-      title: Store API
-      version: 1.0.0
+  definition:
+    $text: https://petstore3.swagger.io/api/v3/openapi.json
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
@@ -132,11 +126,8 @@ spec:
   lifecycle: experimental
   owner: team-backend
   system: petstore
-  definition: |
-    openapi: 3.0.0
-    info:
-      title: User API
-      version: 1.0.0
+  definition:
+    $text: https://petstore3.swagger.io/api/v3/openapi.json
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
