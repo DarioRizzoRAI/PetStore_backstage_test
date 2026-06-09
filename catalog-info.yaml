@@ -137,25 +137,3 @@ spec:
     info:
       title: User API
       version: 1.0.0
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: team-backend
-  description: Team responsabile dei microservizi backend
-spec:
-  type: team
-  profile:
-    displayName: Team Backend
-  children: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: dario.rizzo
-  description: Developer del team backend
-spec:
-  profile:
-    displayName: Dario Rizzo
-  memberOf:
-    - team-backend
